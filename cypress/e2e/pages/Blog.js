@@ -25,15 +25,5 @@ class Blog{
 
     }
 
-    getNextPageButton(){
-
-        return cy.get('.row > .col-sm-6 > .pagination > .page-item:nth-child(3) > .page-link')
-
-    }
-    getPreviousPageButton(){
-
-        return cy.get('.row > .col-sm-6 > .pagination > .page-item:nth-child(2) > .page-link')
-
-    }
 }
 module.exports = Blog
