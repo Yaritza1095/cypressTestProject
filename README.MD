@@ -31,10 +31,6 @@ Blog: Navigates through the 4 horizontal main menus in the left corner.
 
 TO DO:
 
-Complete Home navigation tests
-
-Search by category:
-
 Add address into the account for check out
 
 Purchase user Journey: searching for a product (https://ecommerce-playground.lambdatest.io/index.php?route=product/product&path=57&product_id=34), adding it to cart and completing checkout

@@ -9,7 +9,24 @@ describe("testing home page", () => {
         home.searchInput("iphone")
         home.getSearchButton().click()
   })
+  it("should click special menu", () => {
+    home.getSpecialButton().click()
         
 })
-
+it("should click Blog menu", () => {
+    home.getBlogButton().click()
+})
+it("should search click Mega Menu", () => {
+    home.getMegaMenuButton().click()
+})
+it("should click Blog menu", () => {
+    home.getBlogButton().click()
+})
+  it("should click AddOns menu", () => {
+    home.getAddOnsButton().click()
+})
+it("should click My account menu", () => {
+    home.getBlogButton().click()
+})
+})
  
